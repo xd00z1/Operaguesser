@@ -397,5 +397,509 @@ const operas = [
         year: 1935,
         plot: "In a poor Black community on the American South's Catfish Row, a disabled beggar takes in a troubled woman fleeing her violent lover. Their fragile happiness is threatened by drugs, a hurricane, and the return of her old life.",
         characters: "Porgy, Bess, Crown, Sportin' Life, Clara"
+    },
+    {
+        title: "L'Orfeo",
+        composer: "Claudio Monteverdi",
+        year: 1607,
+        plot: "The earliest widely performed opera. A legendary Thracian musician, told that his bride has died of a snakebite on their wedding day, charms his way into the underworld with his singing to win her back, only to lose her again by breaking a single condition.",
+        characters: "Orfeo, Euridice, Messenger, Charon, Pluto, Proserpina"
+    },
+    {
+        title: "The Coronation of Poppea",
+        composer: "Claudio Monteverdi",
+        year: 1643,
+        plot: "In imperial Rome, an emperor's ambitious mistress schemes to displace his wife and seize the throne, brushing aside a philosopher's counsel and every moral objection. Ambition and lust triumph over virtue.",
+        characters: "Poppea, Nerone, Ottavia, Ottone, Seneca, Drusilla"
+    },
+    {
+        title: "Giulio Cesare",
+        composer: "George Frideric Handel",
+        year: 1724,
+        plot: "A Roman general arrives in Egypt amid civil war and is drawn to a seductive young queen who is battling her treacherous brother for the throne. Political intrigue, disguise, and vengeance drive the plot.",
+        characters: "Cesare, Cleopatra, Tolomeo, Cornelia, Sesto, Achilla"
+    },
+    {
+        title: "Rinaldo",
+        composer: "George Frideric Handel",
+        year: 1711,
+        plot: "During the First Crusade, a Christian knight's beloved is abducted by a sorceress allied with the Saracens. With magical aid he storms an enchanted garden to rescue her. Famous for the lament 'Lascia ch'io pianga.'",
+        characters: "Rinaldo, Almirena, Armida, Argante, Goffredo"
+    },
+    {
+        title: "Alcina",
+        composer: "George Frideric Handel",
+        year: 1735,
+        plot: "A sorceress lures knights to her magic island and transforms her discarded lovers into beasts and stones. A warrior maiden disguised as a man arrives to rescue her bewitched betrothed and break the enchantress's power.",
+        characters: "Alcina, Ruggiero, Bradamante, Morgana, Oronte"
+    },
+    {
+        title: "Serse",
+        composer: "George Frideric Handel",
+        year: 1738,
+        plot: "A Persian king's infatuation with a noblewoman already promised to his own brother sets off a tangle of jealousy, disguise, and misdirected letters. Opens with the celebrated aria 'Ombra mai fu,' sung to a plane tree.",
+        characters: "Serse, Arsamene, Romilda, Atalanta, Amastre"
+    },
+    {
+        title: "Rodelinda",
+        composer: "George Frideric Handel",
+        year: 1725,
+        plot: "A deposed king, believed dead, returns in secret to find a usurper pressuring his faithful queen to remarry. Her steadfast devotion and his reappearance turn the tables on the tyrant.",
+        characters: "Rodelinda, Bertarido, Grimoaldo, Eduige, Garibaldo"
+    },
+    {
+        title: "Platée",
+        composer: "Jean-Philippe Rameau",
+        year: 1745,
+        plot: "To cure a goddess of her jealousy, the gods stage a mock wedding between the king of the gods and a vain, homely marsh nymph who believes herself irresistible. A comic ballet that ends in her good-humored humiliation.",
+        characters: "Platée, Jupiter, Mercure, Junon, La Folie"
+    },
+    {
+        title: "La serva padrona",
+        composer: "Giovanni Battista Pergolesi",
+        year: 1733,
+        plot: "A short comic intermezzo: a cunning maid schemes to marry her grumbling bachelor employer by inventing a fake rival suitor, and maneuvers him into proposing before he realizes what has happened.",
+        characters: "Serpina, Uberto, Vespone"
+    },
+    {
+        title: "Iphigénie en Tauride",
+        composer: "Christoph Willibald Gluck",
+        year: 1779,
+        plot: "A priestess in exile, forced to sacrifice strangers to a goddess, is confronted with two captives who turn out to include her long-lost brother, unleashing an agonized recognition and rescue.",
+        characters: "Iphigénie, Oreste, Pylade, Thoas, Diane"
+    },
+    {
+        title: "Idomeneo",
+        composer: "Wolfgang Amadeus Mozart",
+        year: 1781,
+        plot: "A king of Crete, saved from a storm at sea, vows to sacrifice the first person he meets ashore, who proves to be his own son. He tries desperately to evade the terrible promise as a sea monster ravages his kingdom.",
+        characters: "Idomeneo, Idamante, Ilia, Elettra, Arbace"
+    },
+    {
+        title: "The Abduction from the Seraglio",
+        composer: "Wolfgang Amadeus Mozart",
+        year: 1782,
+        plot: "A Spanish nobleman schemes to rescue his beloved and her maid from the harem of a Turkish pasha. Caught during the escape, the lovers are unexpectedly spared by the pasha's magnanimity.",
+        characters: "Belmonte, Konstanze, Blonde, Pedrillo, Osmin, Pasha Selim"
+    },
+    {
+        title: "La clemenza di Tito",
+        composer: "Wolfgang Amadeus Mozart",
+        year: 1791,
+        plot: "A Roman emperor, betrayed by a close friend who is drawn into an assassination plot by a vengeful woman, chooses mercy over punishment and pardons the conspirators who sought his death.",
+        characters: "Tito, Vitellia, Sesto, Servilia, Annio, Publio"
+    },
+    {
+        title: "Der Freischütz",
+        composer: "Carl Maria von Weber",
+        year: 1821,
+        plot: "A marksman desperate to win a shooting contest and his bride bargains for enchanted bullets cast at midnight in a haunted glen, with the help of a man in league with a demonic huntsman. The final bullet nearly destroys everything he loves.",
+        characters: "Max, Agathe, Kaspar, Ännchen, Samiel, Ottokar"
+    },
+    {
+        title: "The Italian Girl in Algiers",
+        composer: "Gioachino Rossini",
+        year: 1813,
+        plot: "A resourceful Italian woman, shipwrecked and captured, outwits the bey of Algiers who wants her for his harem, engineering a comic escape with her lover through flattery, disguise, and a ridiculous fake ceremony.",
+        characters: "Isabella, Mustafà, Lindoro, Taddeo, Elvira"
+    },
+    {
+        title: "William Tell",
+        composer: "Gioachino Rossini",
+        year: 1829,
+        plot: "In occupied Switzerland, a legendary marksman is forced by a tyrannical governor to shoot an apple off his own son's head, an outrage that ignites a national uprising for freedom. Famous for its galloping overture.",
+        characters: "Guillaume Tell, Arnold, Mathilde, Gesler, Jemmy"
+    },
+    {
+        title: "I puritani",
+        composer: "Vincenzo Bellini",
+        year: 1835,
+        plot: "During the English civil war, a Puritan's daughter loses her reason when her Royalist betrothed appears to abandon her at the altar to help a fugitive queen escape. His eventual return and a royal pardon restore her sanity.",
+        characters: "Elvira, Arturo, Riccardo, Giorgio, Walton"
+    },
+    {
+        title: "La sonnambula",
+        composer: "Vincenzo Bellini",
+        year: 1831,
+        plot: "A village bride-to-be is disgraced when she is discovered in a stranger's room, having sleepwalked there in the night. Her innocence is proven only when the whole town watches her cross a high mill roof while fast asleep.",
+        characters: "Amina, Elvino, Count Rodolfo, Lisa, Teresa"
+    },
+    {
+        title: "The Daughter of the Regiment",
+        composer: "Gaetano Donizetti",
+        year: 1840,
+        plot: "A spirited orphan raised as the mascot of a French regiment falls for a young peasant, then is reclaimed by an aristocratic aunt determined to marry her off to nobility. Famous for a tenor aria with nine high Cs.",
+        characters: "Marie, Tonio, Sulpice, Marquise of Berkenfield"
+    },
+    {
+        title: "Anna Bolena",
+        composer: "Gaetano Donizetti",
+        year: 1830,
+        plot: "A king, weary of his second queen and enamored of her lady-in-waiting, engineers false charges of adultery to send the queen to the scaffold. She descends into madness and forgives him as she awaits execution.",
+        characters: "Anna Bolena, Enrico VIII, Giovanna Seymour, Percy, Smeton"
+    },
+    {
+        title: "Maria Stuarda",
+        composer: "Gaetano Donizetti",
+        year: 1835,
+        plot: "Two rival queens confront each other in a fictional meeting; the imprisoned Scottish queen, provoked, hurls insults at her English cousin and seals her own fate, going to the scaffold with dignity and faith.",
+        characters: "Maria Stuarda, Elisabetta, Leicester, Talbot, Cecil"
+    },
+    {
+        title: "Les Troyens",
+        composer: "Hector Berlioz",
+        year: 1863,
+        plot: "An epic in two parts: the fall of Troy, foreseen by a doomed prophetess, then a Trojan hero's passionate love affair with the queen of Carthage, which he abandons to fulfill his destiny of founding Rome, driving her to suicide.",
+        characters: "Énée, Didon, Cassandre, Chorèbe, Anna"
+    },
+    {
+        title: "Roméo et Juliette",
+        composer: "Charles Gounod",
+        year: 1867,
+        plot: "Two young lovers from feuding noble families of Verona marry in secret, but a chain of duels, banishment, and a sleeping potion gone tragically wrong drives them both to death.",
+        characters: "Roméo, Juliette, Mercutio, Tybalt, Frère Laurent"
+    },
+    {
+        title: "Orpheus in the Underworld",
+        composer: "Jacques Offenbach",
+        year: 1858,
+        plot: "A satirical operetta in which a bored musician is secretly glad when his unfaithful wife is carried off to Hades, but public opinion shames him into reclaiming her. Home of the famous galloping can-can.",
+        characters: "Orphée, Eurydice, Pluton, Jupiter, Public Opinion"
+    },
+    {
+        title: "The Pearl Fishers",
+        composer: "Georges Bizet",
+        year: 1863,
+        plot: "In ancient Ceylon, two friends who long ago swore to renounce a woman they both loved find their bond tested when she reappears as a veiled temple priestess. Famous for the tenor–baritone duet 'Au fond du temple saint.'",
+        characters: "Nadir, Zurga, Leïla, Nourabad"
+    },
+    {
+        title: "Lakmé",
+        composer: "Léo Delibes",
+        year: 1883,
+        plot: "In British-occupied India, the daughter of a vengeful Brahmin priest falls in love with an English officer, a forbidden union that ends in tragedy. Famous for the shimmering 'Flower Duet.'",
+        characters: "Lakmé, Gérald, Nilakantha, Mallika, Frédéric"
+    },
+    {
+        title: "Thaïs",
+        composer: "Jules Massenet",
+        year: 1894,
+        plot: "A monk sets out to convert a beautiful Alexandrian courtesan to a life of faith, only to find his own soul consumed by desire for her just as she embraces holiness. Famous for the orchestral 'Méditation.'",
+        characters: "Thaïs, Athanaël, Nicias, Palémon"
+    },
+    {
+        title: "Pelléas et Mélisande",
+        composer: "Claude Debussy",
+        year: 1902,
+        plot: "A prince finds a mysterious, sorrowful woman weeping by a forest spring and marries her, but she and his younger half-brother drift into a tender, doomed love. A dreamlike symbolist tragedy of jealousy and fate.",
+        characters: "Pelléas, Mélisande, Golaud, Arkel, Geneviève"
+    },
+    {
+        title: "Louise",
+        composer: "Gustave Charpentier",
+        year: 1900,
+        plot: "A Parisian seamstress defies her possessive working-class parents to live with her artist lover in bohemian Montmartre, torn between family duty and the intoxicating freedom of the city itself.",
+        characters: "Louise, Julien, The Mother, The Father"
+    },
+    {
+        title: "L'enfant et les sortilèges",
+        composer: "Maurice Ravel",
+        year: 1925,
+        plot: "A naughty child who smashes his toys and torments the household animals finds the furniture, the crockery, and the garden creatures springing to life to reproach him, until a single act of kindness redeems him.",
+        characters: "The Child, The Mother, Fire, The Princess, The Cat"
+    },
+    {
+        title: "Dialogues des Carmélites",
+        composer: "Francis Poulenc",
+        year: 1957,
+        plot: "During the French Revolution, a timid young aristocrat joins a Carmelite convent seeking refuge from her fears, only to face the ultimate test of courage when the nuns are condemned to the guillotine for their faith.",
+        characters: "Blanche, Madame de Croissy, Mother Marie, Sister Constance, Madame Lidoine"
+    },
+    {
+        title: "Die Frau ohne Schatten",
+        composer: "Richard Strauss",
+        year: 1919,
+        plot: "An empress who is part spirit casts no shadow, a sign she cannot bear children, and must obtain one within three days or her husband will turn to stone. Her quest tests two very different couples' capacity for compassion and sacrifice.",
+        characters: "The Empress, The Emperor, The Nurse, Barak, Barak's Wife"
+    },
+    {
+        title: "Arabella",
+        composer: "Richard Strauss",
+        year: 1933,
+        plot: "An impoverished Viennese family pins its hopes on marrying off its elder daughter well, while the younger, raised as a boy to save money, secretly loves an officer who believes her male. A wealthy stranger and a glass of water set things right.",
+        characters: "Arabella, Mandryka, Zdenka, Matteo, Waldner"
+    },
+    {
+        title: "Capriccio",
+        composer: "Richard Strauss",
+        year: 1942,
+        plot: "In an elegant 'conversation piece,' a widowed countess is courted by both a poet and a composer, each embodying one side of opera's oldest question: which matters more, the words or the music?",
+        characters: "The Countess, Flamand, Olivier, La Roche, The Count"
+    },
+    {
+        title: "Hänsel und Gretel",
+        composer: "Engelbert Humperdinck",
+        year: 1893,
+        plot: "Two poor children lost in the woods stumble upon a gingerbread house belonging to a witch who fattens children to eat them. They outwit her, shove her into her own oven, and free the other children she had turned to gingerbread.",
+        characters: "Hänsel, Gretel, The Witch, Gertrud, Peter"
+    },
+    {
+        title: "The Merry Widow",
+        composer: "Franz Lehár",
+        year: 1905,
+        plot: "Diplomats of a tiny bankrupt principality scheme to keep a wealthy widow's fortune at home by marrying her off to a countryman, who happens to be her former sweetheart. A sparkling operetta of pride and rekindled love.",
+        characters: "Hanna Glawari, Danilo, Valencienne, Camille, Baron Zeta"
+    },
+    {
+        title: "Die tote Stadt",
+        composer: "Erich Wolfgang Korngold",
+        year: 1920,
+        plot: "A widower who has turned his home into a shrine to his dead wife becomes obsessed with a dancer who resembles her. A feverish dream of desire, jealousy, and imagined murder leads him back to reality and release.",
+        characters: "Paul, Marietta, Frank, Brigitta"
+    },
+    {
+        title: "The Threepenny Opera",
+        composer: "Kurt Weill",
+        year: 1928,
+        plot: "A biting musical satire set in London's criminal underworld, following a charming gangster, his marriage to a beggar-king's daughter, and the corrupt bargains that keep him from the gallows. Home of 'Mack the Knife.'",
+        characters: "Macheath, Polly Peachum, Mr. Peachum, Jenny, Tiger Brown"
+    },
+    {
+        title: "Lulu",
+        composer: "Alban Berg",
+        year: 1937,
+        plot: "A magnetic, amoral woman rises through a series of husbands and lovers, each destroyed in her wake, before her own fall into poverty and a fatal encounter with a murderer in London. Left unfinished at the composer's death.",
+        characters: "Lulu, Dr. Schön, Alwa, Countess Geschwitz, Schigolch"
+    },
+    {
+        title: "The Queen of Spades",
+        composer: "Pyotr Ilyich Tchaikovsky",
+        year: 1890,
+        plot: "An obsessive gambler becomes convinced that an old countess knows the secret of three winning cards. His fixation destroys the woman who loves him and drives him to ruin and death at the gaming table.",
+        characters: "Hermann, Lisa, The Countess, Yeletsky, Tomsky"
+    },
+    {
+        title: "Prince Igor",
+        composer: "Alexander Borodin",
+        year: 1890,
+        plot: "A medieval Russian prince is captured while campaigning against a nomadic khan, who treats his royal prisoner with chivalrous respect while his own kingdom slides into disorder back home. Famous for the 'Polovtsian Dances.'",
+        characters: "Igor, Yaroslavna, Vladimir, Konchak, Galitsky"
+    },
+    {
+        title: "The Golden Cockerel",
+        composer: "Nikolai Rimsky-Korsakov",
+        year: 1909,
+        plot: "A lazy, foolish tsar is given a magical golden cockerel that crows to warn of danger, but his greed and an enchanting foreign queen bring about his comic and fatal downfall. A biting satire of autocratic misrule.",
+        characters: "Tsar Dodon, Queen of Shemakha, The Astrologer, The Golden Cockerel"
+    },
+    {
+        title: "The Love for Three Oranges",
+        composer: "Sergei Prokofiev",
+        year: 1921,
+        plot: "A melancholy, hypochondriac prince, cursed to fall in love with three oranges, journeys to distant lands to find them, freeing the princesses trapped inside. A whimsical fairy-tale satire, famous for its March.",
+        characters: "The Prince, Truffaldino, Leandro, Fata Morgana, Princess Ninetta"
+    },
+    {
+        title: "War and Peace",
+        composer: "Sergei Prokofiev",
+        year: 1946,
+        plot: "An epic adaptation of Tolstoy's novel, sweeping from the ballrooms and love affairs of Russian aristocracy into Napoleon's catastrophic 1812 invasion and the burning of Moscow.",
+        characters: "Natasha, Prince Andrei, Pierre, Anatol, Napoleon, Kutuzov"
+    },
+    {
+        title: "Lady Macbeth of the Mtsensk District",
+        composer: "Dmitri Shostakovich",
+        year: 1934,
+        plot: "A stifled provincial merchant's wife takes a brutish lover and murders her way toward freedom, disposing of her father-in-law and husband, before betrayal ends her on a Siberian prison convoy. Famously denounced by Stalin.",
+        characters: "Katerina, Sergei, Boris, Zinovy"
+    },
+    {
+        title: "Jenůfa",
+        composer: "Leoš Janáček",
+        year: 1904,
+        plot: "A Moravian village girl, pregnant and abandoned, is at the mercy of her stern, proud stepmother, who secretly drowns the newborn to protect the family's honor. Discovery, guilt, and hard-won forgiveness follow.",
+        characters: "Jenůfa, Laca, Števa, Kostelnička, Grandmother Buryjovka"
+    },
+    {
+        title: "The Cunning Little Vixen",
+        composer: "Leoš Janáček",
+        year: 1924,
+        plot: "A forester captures a wild vixen who escapes to live, love, and raise a family in the forest. Her spirited life and sudden death become a radiant meditation on nature's endless cycle of renewal.",
+        characters: "The Vixen, The Fox, The Forester, Harašta, The Schoolmaster"
+    },
+    {
+        title: "Kátya Kabanová",
+        composer: "Leoš Janáček",
+        year: 1921,
+        plot: "Trapped in a loveless marriage under a tyrannical mother-in-law in a Russian river town, a sensitive young woman risks an affair while her husband is away, is consumed by guilt, confesses publicly, and drowns herself in the Volga.",
+        characters: "Kátya, Boris, Kabanicha, Tichon, Varvara"
+    },
+    {
+        title: "The Bartered Bride",
+        composer: "Bedřich Smetana",
+        year: 1866,
+        plot: "In a Bohemian village, a young woman's true love appears to sell his claim on her to a marriage broker, scandalizing everyone, until his clever scheme reveals he is the wealthy rival's long-lost brother and he wins her honestly after all.",
+        characters: "Mařenka, Jeník, Kecal, Vašek, Micha"
+    },
+    {
+        title: "Rusalka",
+        composer: "Antonín Dvořák",
+        year: 1901,
+        plot: "A water nymph longs to become human to win a prince's love and trades her voice for legs, warned that failure will doom them both. Betrayed and left mute, she becomes a spirit of death. Famous for the 'Song to the Moon.'",
+        characters: "Rusalka, The Prince, Ježibaba, Vodník, Foreign Princess"
+    },
+    {
+        title: "Bluebeard's Castle",
+        composer: "Béla Bartók",
+        year: 1918,
+        plot: "A new bride insists on opening the seven locked doors of her brooding husband's dark castle, each revealing something of his soul and his past, until she joins his former wives among the shadows. A one-act psychological allegory.",
+        characters: "Bluebeard, Judith"
+    },
+    {
+        title: "The Turn of the Screw",
+        composer: "Benjamin Britten",
+        year: 1954,
+        plot: "A governess at an isolated country house becomes convinced that the two children in her care are being corrupted by the ghosts of a former valet and governess. Her increasingly desperate efforts to save them end in tragedy.",
+        characters: "The Governess, Miles, Flora, Peter Quint, Miss Jessel, Mrs. Grose"
+    },
+    {
+        title: "Billy Budd",
+        composer: "Benjamin Britten",
+        year: 1951,
+        plot: "Aboard an 18th-century British warship, a handsome, good-natured sailor is falsely accused of mutiny by a malevolent master-at-arms. When he strikes his accuser dead, his anguished captain is bound by naval law to condemn him to hang.",
+        characters: "Billy Budd, Captain Vere, Claggart, Dansker"
+    },
+    {
+        title: "A Midsummer Night's Dream",
+        composer: "Benjamin Britten",
+        year: 1960,
+        plot: "In an enchanted wood, quarreling fairy royalty, a mischievous sprite with a love potion, four confused young lovers, and a troupe of bumbling amateur actors tangle together into a magical midsummer comedy.",
+        characters: "Oberon, Tytania, Puck, Bottom, Lysander, Hermia"
+    },
+    {
+        title: "Vanessa",
+        composer: "Samuel Barber",
+        year: 1958,
+        plot: "A woman who has waited twenty years for a lost lover is visited by his son, who instead seduces her young niece before deserting her. A drama of romantic illusion, self-deception, and its cost passed from one generation to the next.",
+        characters: "Vanessa, Anatol, Erika, The Baroness, The Doctor"
+    },
+    {
+        title: "Amahl and the Night Visitors",
+        composer: "Gian Carlo Menotti",
+        year: 1951,
+        plot: "A poor disabled shepherd boy and his mother give shelter to the Three Kings on their journey to Bethlehem. The boy's gift of his own crutch to the newborn child brings about a miracle. A beloved Christmas opera written for television.",
+        characters: "Amahl, The Mother, Kaspar, Melchior, Balthazar"
+    },
+    {
+        title: "Susannah",
+        composer: "Carlisle Floyd",
+        year: 1955,
+        plot: "In a rural Tennessee mountain community, a beautiful, innocent young woman is falsely branded a sinner by hypocritical church elders after she is seen bathing in a creek, and is slowly destroyed by their persecution.",
+        characters: "Susannah, Sam, Olin Blitch, Little Bat, Elder McLean"
+    },
+    {
+        title: "Nixon in China",
+        composer: "John Adams",
+        year: 1987,
+        plot: "A minimalist retelling of President Nixon's historic 1972 visit to Communist China, capturing the staged political theater, the outsized personalities of the leaders, and their private, searching reflections.",
+        characters: "Richard Nixon, Pat Nixon, Chou En-lai, Mao Tse-tung, Chiang Ch'ing"
+    },
+    {
+        title: "Doctor Atomic",
+        composer: "John Adams",
+        year: 2005,
+        plot: "In the tense final hours before the first atomic bomb test in the New Mexico desert in 1945, the physicist leading the Manhattan Project wrestles with dread, ambition, and profound moral doubt.",
+        characters: "J. Robert Oppenheimer, Kitty Oppenheimer, Edward Teller, General Groves, Robert Wilson"
+    },
+    {
+        title: "Akhnaten",
+        composer: "Philip Glass",
+        year: 1984,
+        plot: "A hypnotic, ritualistic portrait of the ancient Egyptian pharaoh who overturned centuries of tradition to worship a single sun-god, and whose radical, inward-looking reign collapsed after his death.",
+        characters: "Akhnaten, Nefertiti, Queen Tye, Horemhab, Amenhotep"
+    },
+    {
+        title: "Satyagraha",
+        composer: "Philip Glass",
+        year: 1980,
+        plot: "A meditative, Sanskrit-language opera depicting the young Gandhi's years in South Africa and the birth of his philosophy of nonviolent resistance, structured around scenes overseen by historical and spiritual figures.",
+        characters: "Gandhi, Miss Schlesen, Mrs. Naidoo, Kasturbai, Parsi Rustomji"
+    },
+    {
+        title: "The Tempest",
+        composer: "Thomas Adès",
+        year: 2004,
+        plot: "A modern operatic setting of Shakespeare's play: an exiled sorcerer conjures a storm to shipwreck his enemies on his island, engineering justice, his daughter's marriage, and at last his own reconciliation and renunciation of magic.",
+        characters: "Prospero, Ariel, Miranda, Ferdinand, Caliban"
+    },
+    {
+        title: "Dead Man Walking",
+        composer: "Jake Heggie",
+        year: 2000,
+        plot: "Based on Sister Helen Prejean's memoir, a nun becomes the spiritual adviser to a convicted murderer on death row, confronting guilt, the possibility of forgiveness, and the reality of capital punishment.",
+        characters: "Sister Helen Prejean, Joseph De Rocher, Mrs. De Rocher, Owen Hart"
+    },
+    {
+        title: "Le Grand Macabre",
+        composer: "György Ligeti",
+        year: 1978,
+        plot: "An absurdist, apocalyptic farce set in a decaying land where a figure claiming to be Death announces the end of the world amid drunkenness, lust, and bumbling politicians, only for the promised apocalypse to fizzle out anticlimactically.",
+        characters: "Nekrotzar, Piet the Pot, Astradamors, Mescalina, Gepopo"
+    },
+    {
+        title: "La Gioconda",
+        composer: "Amilcare Ponchielli",
+        year: 1876,
+        plot: "In 17th-century Venice, a devoted street singer sacrifices herself amid a web of love, jealousy, and blackmail entangling a spy, a noblewoman, and her own blind mother. Home of the famous 'Dance of the Hours.'",
+        characters: "La Gioconda, Enzo, Barnaba, Laura, Alvise, La Cieca"
+    },
+    {
+        title: "Andrea Chénier",
+        composer: "Umberto Giordano",
+        year: 1896,
+        plot: "During the French Revolution, an idealistic poet and an aristocrat's daughter fall in love as the Terror closes in. Denounced by a jealous rival turned revolutionary, the poet is sent to the guillotine, and she chooses to die at his side.",
+        characters: "Andrea Chénier, Maddalena, Gérard, Bersi, Roucher"
+    },
+    {
+        title: "Adriana Lecouvreur",
+        composer: "Francesco Cilea",
+        year: 1902,
+        plot: "A celebrated 18th-century French actress and a rival princess vie for the love of the same nobleman. The jealous princess takes her revenge by sending a bouquet of poisoned violets that kills the unsuspecting actress.",
+        characters: "Adriana, Maurizio, Princess de Bouillon, Michonnet, Abbé"
+    },
+    {
+        title: "Mefistofele",
+        composer: "Arrigo Boito",
+        year: 1868,
+        plot: "A grand setting of the Faust legend, framed by a wager in heaven, in which the Devil leads an aging scholar through earthly love and a classical dream of ancient Greece toward a final, contested redemption.",
+        characters: "Mefistofele, Faust, Margherita, Elena, Marta"
+    },
+    {
+        title: "Manon Lescaut",
+        composer: "Giacomo Puccini",
+        year: 1893,
+        plot: "A young woman drawn to luxury abandons her student lover for a rich old man, is arrested as a courtesan, and is deported to the American wilderness, where she dies of exhaustion in her lover's arms.",
+        characters: "Manon Lescaut, Des Grieux, Lescaut, Geronte"
+    },
+    {
+        title: "The Girl of the Golden West",
+        composer: "Giacomo Puccini",
+        year: 1910,
+        plot: "In a California Gold Rush mining camp, the tough but tender woman who runs the saloon falls for a bandit on the run and wins his freedom by cheating the sheriff who loves her in a tense, rigged game of cards.",
+        characters: "Minnie, Dick Johnson, Jack Rance, Nick, Ashby"
+    },
+    {
+        title: "Suor Angelica",
+        composer: "Giacomo Puccini",
+        year: 1918,
+        plot: "In a convent, a noblewoman forced years earlier to give up her illegitimate child learns from a cold aunt that the boy has died. In despair she takes poison, then, praying for forgiveness, receives a consoling vision of grace.",
+        characters: "Sister Angelica, The Princess, The Abbess, Sister Genovieffa"
+    },
+    {
+        title: "Il tabarro",
+        composer: "Giacomo Puccini",
+        year: 1918,
+        plot: "On a barge on the Seine, an aging skipper discovers his young wife's affair with a stevedore and takes brutal revenge, hiding the dead lover's body beneath the heavy cloak in which he once sheltered her.",
+        characters: "Michele, Giorgetta, Luigi, Tinca, Frugola"
     }
 ];
