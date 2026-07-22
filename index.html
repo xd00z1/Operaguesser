@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opera Guesser</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎭 Opera Guesser</h1>
+            <p>Guess the opera from its plot</p>
+        </div>
+
+        <div class="stats">
+            <span id="counter">Opera <span id="current">1</span> of <span id="total">0</span></span>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <h2>Plot</h2>
+                <p id="plot" class="plot-text">Loading...</p>
+            </div>
+
+            <div class="answer-section" id="answerSection" style="display: none;">
+                <h2 id="title" class="title"></h2>
+                <p class="composer"><strong>Composer:</strong> <span id="composer"></span></p>
+                <p class="characters"><strong>Key Characters:</strong> <span id="characters"></span></p>
+            </div>
+
+            <div class="buttons">
+                <button id="revealBtn" class="btn btn-reveal">Reveal Answer</button>
+                <button id="nextBtn" class="btn btn-next" style="display: none;">Next Opera</button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <button id="shuffleBtn" class="btn btn-small">Shuffle All</button>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
